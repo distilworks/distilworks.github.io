@@ -26,7 +26,11 @@
     .container { max-width: 960px; margin: 0 auto; padding: 24px; }
     header { padding: 48px 0 24px; }
     .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: 0.2px; }
-    .logo { width: 28px; height: 28px; border-radius: 6px; background: var(--fg); }
+    .logo {
+      height: 48px;   /* adjust until it looks balanced */
+      width: auto;
+      display: block;
+    }
     .tagline { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
     .hero { padding: 36px 0 24px; }
     .hero h1 { font-size: clamp(28px, 6vw, 44px); line-height: 1.15; margin: 0 0 12px; }
@@ -59,7 +63,9 @@
 <body>
   <div class="container">
     <header>
-      <div class="brand"><div class="logo"></div> Distil Works</div>
+      <div class="brand">
+        <img class="logo" src="/assets/logo.png" alt="Distil Works logo">
+      </div>
       <p class="tagline">Data analysis for small businesses</p>
     </header>
 

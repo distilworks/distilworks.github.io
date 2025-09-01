@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Distil Works — Data analysis for small businesses</title>
+  <meta name="description" content="Distil Works helps small businesses make decisions with data: sales & customer analysis, survey-to-insights reports, and monthly dashboards." />
+  <meta property="og:title" content="Distil Works — Data analysis for small businesses" />
+  <meta property="og:description" content="Big companies use data to make decisions. Distil Works helps small businesses do the same — with clear reports and simple dashboards." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.png" />
+  <meta name="theme-color" content="#0d0d0d" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root {
+      --bg: #ffffff; --fg: #0d0d0d; --muted:#6b7280; --accent:#111827; --pill:#f3f4f6; --border:#e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; color: var(--fg); background: var(--bg); line-height: 1.6; }
+    a { color: var(--fg); text-decoration: none; }
+    .container { max-width: 960px; margin: 0 auto; padding: 24px; }
+    header { padding: 48px 0 24px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: 0.2px; }
+    .logo { width: 28px; height: 28px; border-radius: 6px; background: var(--fg); }
+    .tagline { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+    .hero { padding: 36px 0 24px; }
+    .hero h1 { font-size: clamp(28px, 6vw, 44px); line-height: 1.15; margin: 0 0 12px; }
+    .hero p { font-size: clamp(16px, 2.5vw, 18px); color: var(--muted); margin: 0 0 20px; }
+    .cta { display: inline-block; background: var(--fg); color: #fff; padding: 12px 18px; border-radius: 999px; font-weight: 600; }
+    .note { display:inline-block; margin-left:10px; padding:10px 14px; background: var(--pill); border-radius:999px; color: var(--muted); font-size: 14px; }
+
+    .grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+    @media (min-width: 760px) { .grid { grid-template-columns: repeat(3, 1fr);} }
+    .card { border: 1px solid var(--border); border-radius: 16px; padding: 18px; background: #fff; }
+    .card h3 { margin: 0 0 8px; font-size: 18px; }
+    .card p { margin: 0; color: var(--muted); }
+    .price { margin-top: 10px; font-weight: 700; }
+
+    .examples { margin-top: 24px; border: 1px dashed var(--border); border-radius: 16px; padding: 18px; }
+    .examples h4 { margin: 0 0 10px; }
+    .shot { border: 1px solid var(--border); border-radius: 12px; padding: 12px; margin-bottom: 10px; background: #fff; }
+    .shot small { color: var(--muted); }
+
+    .about, .contact { margin-top: 40px; }
+    .about p { color: var(--muted); }
+    footer { margin: 60px 0 20px; color: var(--muted); font-size: 14px; }
+    .badges { display:flex; gap:8px; margin-top:8px; flex-wrap:wrap; }
+    .badge { border:1px solid var(--border); background:var(--pill); padding:6px 10px; border-radius:999px; font-size:12px; color:var(--muted); }
+    form { display:grid; gap:10px; max-width:520px; }
+    input, textarea { width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:10px; font-size:16px; }
+    button { cursor:pointer; background:var(--fg); color:#fff; border:0; padding:12px 16px; border-radius:10px; font-weight:700; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand"><div class="logo"></div> Distil Works</div>
+      <p class="tagline">Data analysis for small businesses</p>
+    </header>
+
+    <section class="hero">
+      <h1>Big companies use data to make decisions.<br/>Distil Works helps small businesses do the same.</h1>
+      <p>Turn messy spreadsheets, sales data and surveys into clear answers — simple dashboards, concise reports, and takeaways you can act on.</p>
+      <a class="cta" href="#contact">Get a quote</a>
+      <span class="note">Cambridge econ/student side project — affordable, practical.</span>
+    </section>
+
+    <section class="services">
+      <div class="grid">
+        <div class="card">
+          <h3>Sales & Customer Analysis</h3>
+          <p>Clean your sales data, highlight best products/customers, spot seasonality, provide a simple forecast.</p>
+          <div class="price">from £300</div>
+        </div>
+        <div class="card">
+          <h3>Survey → Insights Report</h3>
+          <p>Turn staff or customer survey responses into charts and a short report with 3–5 takeaways.</p>
+          <div class="price">£500</div>
+        </div>
+        <div class="card">
+          <h3>Monthly Dashboard</h3>
+          <p>Automate recurring reports into a one‑page dashboard with a short monthly commentary.</p>
+          <div class="price">£300 / month</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="examples">
+      <h4>Example work</h4>
+      <div class="shot">
+        <strong>Sales snapshot</strong>
+        <p>Top products, repeat customers, month‑on‑month trend.</p>
+        <small>(Sample data shown)</small>
+      </div>
+      <div class="shot">
+        <strong>Survey summary</strong>
+        <p>Visual summary with 3 key insights for your team or board.</p>
+        <small>(Sample data shown)</small>
+      </div>
+    </section>
+
+    <section class="about about">
+      <h2>About</h2>
+      <p>I’m an Economics undergraduate at Cambridge. Distil Works is my side project: I help small businesses make sense of their numbers without the jargon or overhead of a big consultancy. I focus on practical analysis you can use right away.</p>
+      <div class="badges">
+        <span class="badge">Cambridge Economics</span>
+        <span class="badge">R / Stata / Excel</span>
+        <span class="badge">Plain‑English reporting</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Tell me what data problem you want solved. I’ll reply with a short plan and a fixed quote.</p>
+      <!-- Option A: Formspree (replace YOUR_FORM_ID) -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" rows="5" placeholder="What do you need help with?" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p style="margin-top:10px;color:var(--muted)">Or email <a href="mailto:hello@distilworks.com">hello@distilworks.com</a></p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Distil Works • Trading as a sole trader in the UK
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
